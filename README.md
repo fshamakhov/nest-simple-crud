@@ -5,11 +5,11 @@
 ## Simple CRUD Nest App
 ### Get list of cats
 ```
-GET http://localhost:3000/cats
+GET http://localhost:3000
 ```
 ### Create a cat
 ```http
-POST http://localhost:3000/cats
+POST http://localhost:3000
 Content-Type: application/json
 
 {
@@ -20,11 +20,11 @@ Content-Type: application/json
 ```
 ### Get a cat
 ```http
-GET http://localhost:3000/cats/1
+GET http://localhost:3000/1
 ```
 ### Update a cat
 ```http
-PUT http://localhost:3000/cats/1
+PUT http://localhost:3000/1
 Content-Type: application/json
 
 {
@@ -34,5 +34,5 @@ Content-Type: application/json
 ```
 ### Remove a cat
 ```http
-DELETE http://localhost:3000/cats/2
+DELETE http://localhost:3000/2
 ```
